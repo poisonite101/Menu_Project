@@ -1,0 +1,128 @@
+Combination Plate
+
+Paper wrapped chicken (2), BBQ ribs (2), skewered beef (2), egg rolls (2), fried wonton (4), and fried shrimp (2)
+
+Egg Rolls (4)
+
+Crispy and filled with carrots and cabbage.
+
+Tottie Rolls (4)
+
+Vietnamese style egg rolls. A real treat wrapped in cool lettuce.
+
+Shanghai Egg Rolls (4)
+
+Filled with pork, shiitake mushrooms and napa cabbage.
+
+Spring Rolls (4)
+
+Vietnamese Goi Cuon: Soft rice paper rolls with bean sprouts, herbs and rice vermicelli.  Served wiith peanut sauce.
+
+Traditional (pork & shrimp)
+
+Salmon
+
+Shrimp Tempura
+
+Soft Shell Crab
+
+Vegetarian
+
+Sugarcane Chicken
+
+Chicken meatballs skewered on sugarcane and served with cilantro, mint, cucumber, and rice vermicelli. Wrap it all in cool lettuce and dip in peanut sauce.
+
+Beef on Skewers (4)
+
+Chicken Satay Sticks (2)
+
+Marinated chicken on a bamboo skewer, served with peanut sauce.
+
+Soft Shell Crab with Ponzu Sauce
+
+Edamame
+
+Shrimp Puffs (6)
+
+BBQ Pork Ribs (4)
+
+Fried Wonton (10)
+
+Fried Tofu (8)
+
+Fried tofu wedges served with peanut or cucumber sauce.
+
+Potstickers (5)
+
+Spicy Cucumber
+
+
+
+
+
+
+
+_________________________________
+
+
+<div id="appetizersMealsBox" class="menuContainer">
+            <div id="menuTitleBox" class="centeredHorBox">
+                <h2 id="menuTitle">Appetizers</h2>
+            </div>
+            <div id="appetizersMeals" class="subSectionBox">
+                <div id="menuItems" class="leftHorBox">
+                    <dl id="menuItemList">
+                        <dt id="name" class="menuItem">name</dt>
+                        <dd id="desc" class="menuItemDesc">description</dd>
+
+                        <dt id="name" class="menuItem">name</dt>
+                        <dd id="desc" class="menuItemDesc">description</dd>
+
+                        <dt id="name" class="menuItem">name</dt>
+                        <dd id="desc" class="menuItemDesc">description</dd>
+
+                        <dt id="name" class="menuItem">name</dt>
+                        <dd id="desc" class="menuItemDesc">description</dd>
+
+                        <dt id="name" class="menuItem">name</dt>
+                        <dd id="desc" class="menuItemDesc">description</dd>
+
+                        <dt id="name" class="menuItem">name</dt>
+                        <dd id="desc" class="menuItemDesc">description</dd>
+
+                        <dt id="name" class="menuItem">name</dt>
+                        <dd id="desc" class="menuItemDesc">description</dd>
+
+                        <dt id="name" class="menuItem">name</dt>
+                        <dd id="desc" class="menuItemDesc">description</dd>
+
+                        <dt id="name" class="menuItem">name</dt>
+                        <dd id="desc" class="menuItemDesc">description</dd>
+
+                        <dt id="name" class="menuItem">name</dt>
+                        <dd id="desc" class="menuItemDesc">description</dd>
+
+                        <dt id="name" class="menuItem">name</dt>
+                        <dd id="desc" class="menuItemDesc">description</dd>
+
+                        <dt id="name" class="menuItem">name</dt>
+                        <dd id="desc" class="menuItemDesc">description</dd>
+
+                        <dt id="name" class="menuItem">name</dt>
+                        <dd id="desc" class="menuItemDesc">description</dd>
+
+                        <dt id="name" class="menuItem">name</dt>
+                        <dd id="desc" class="menuItemDesc">description</dd>
+
+                        <dt id="name" class="menuItem">name</dt>
+                        <dd id="desc" class="menuItemDesc">description</dd>
+
+                        <dt id="name" class="menuItem">name</dt>
+                        <dd id="desc" class="menuItemDesc">description</dd>
+
+                        <dt id="name" class="menuItem">name</dt>
+                        <dd id="desc" class="menuItemDesc">description</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>

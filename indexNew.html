@@ -8,7 +8,8 @@
     <title>Tottie&apos;s</title>
 
     <link rel="stylesheet" href="styles/menuLayouts.css" />
-    <link rel="stylesheet" href="/styles/MenuColors.css" />
+    <link rel="stylesheet" href="styles/MenuColors.css" />
+    <script src="scripts/menuContent.js" defer></script>
 </head>
 
 <body>
@@ -19,81 +20,19 @@
         <div id="titleName" class="3-4"></div>
         <div id="menuSelector" class="horizontalBox">
             <ul id="menuOptions">
-                <li id="menuCatItem" onclick="appetizersMenu()">Appetizers</li>
-                <li id="menuCatItem" onclick="soupsMenu()">Soups</li>
-                <li id="menuCatItem" onclick="thaiMenu()">Thai/Vietnamese</li>
-                <li id="menuCatItem" onclick="entreesMenu()">Chinese Entrees</li>
-                <li id="menuCatItem" onclick="noodlesMenu()">Chinese Noodles</li>
-                <li id="menuCatItem" onclick="veggiesMenu()">Chinese Veggies</li>
-                <li id="menuCatItem" onclick="riceMenu()">Rice</li>
-                <li id="menuCatItem" onclick="dessertsMenu()">Desserts</li>
-                <li id="menuCatItem" onclick="specialsMenu()">Lunch Specials</li>
+                <li id="menuCatItem"><a onclick="appetizersMenu()" onmouseover="mouseSelectionEvent()">Appetizers</a></li>
+                <li id="menuCatItem"><a onclick="soupsMenu()">Soups</a></li>
+                <li id="menuCatItem"><a onclick="ThaiMenu()">Thai/Vietnamese</a></li>
+                <li id="menuCatItem" onclick="entreesMenu()"><a onclick="entreesMenu()">Chinese Entrees</a></li>
+                <li id="menuCatItem" onclick="noodlesMenu()"><a onclick="noodlesMenu()">Chinese Noodles</a></li>
+                <li id="menuCatItem" onclick="veggiesMenu()"><a onclick="veggiesMenu()">Chinese Veggies</a></li>
+                <li id="menuCatItem" onclick="riceMenu()"><a onclick="riceMenu()">Rice</a></li>
+                <li id="menuCatItem" onclick="dessertsMenu()"><a onclick="dessertsMenu()">Desserts</a></li>
+                <li id="menuCatItem" onclick="specialsMenu()"><a onclick="specialsMenu()">Lunch Specials</a></li>
             </ul>
         </div>
     </div>
-    <div id="container">
-        <div id="appetizersMealsBox" class="menuContainer">
-            <div id="menuTitleBox" class="centeredHorBox">
-                <h2 id="menuTitle">Appetizers</h2>
-            </div>
-            <div id="appetizersMeals" class="subSectionBox">
-                <div id="menuItems" class="leftHorBox">
-                    <dl id="menuItemList">
-                        <dt id="name" class="menuItem">name</dt>
-                        <dd id="desc" class="menuItemDesc">description</dd>
-
-                        <dt id="name" class="menuItem">name</dt>
-                        <dd id="desc" class="menuItemDesc">description</dd>
-
-                        <dt id="name" class="menuItem">name</dt>
-                        <dd id="desc" class="menuItemDesc">description</dd>
-
-                        <dt id="name" class="menuItem">name</dt>
-                        <dd id="desc" class="menuItemDesc">description</dd>
-
-                        <dt id="name" class="menuItem">name</dt>
-                        <dd id="desc" class="menuItemDesc">description</dd>
-
-                        <dt id="name" class="menuItem">name</dt>
-                        <dd id="desc" class="menuItemDesc">description</dd>
-
-                        <dt id="name" class="menuItem">name</dt>
-                        <dd id="desc" class="menuItemDesc">description</dd>
-
-                        <dt id="name" class="menuItem">name</dt>
-                        <dd id="desc" class="menuItemDesc">description</dd>
-
-                        <dt id="name" class="menuItem">name</dt>
-                        <dd id="desc" class="menuItemDesc">description</dd>
-
-                        <dt id="name" class="menuItem">name</dt>
-                        <dd id="desc" class="menuItemDesc">description</dd>
-
-                        <dt id="name" class="menuItem">name</dt>
-                        <dd id="desc" class="menuItemDesc">description</dd>
-
-                        <dt id="name" class="menuItem">name</dt>
-                        <dd id="desc" class="menuItemDesc">description</dd>
-
-                        <dt id="name" class="menuItem">name</dt>
-                        <dd id="desc" class="menuItemDesc">description</dd>
-
-                        <dt id="name" class="menuItem">name</dt>
-                        <dd id="desc" class="menuItemDesc">description</dd>
-
-                        <dt id="name" class="menuItem">name</dt>
-                        <dd id="desc" class="menuItemDesc">description</dd>
-
-                        <dt id="name" class="menuItem">name</dt>
-                        <dd id="desc" class="menuItemDesc">description</dd>
-
-                        <dt id="name" class="menuItem">name</dt>
-                        <dd id="desc" class="menuItemDesc">description</dd>
-                    </dl>
-                </div>
-            </div>
-        </div>
-    </div>
+    <div id="menuContainer"></div>
 </body>
 
 </html>
