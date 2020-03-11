@@ -3,6 +3,22 @@ var currentMenu = "";
 //global var as shorthand for selecting the menu container
 var menuContainer = document.querySelector("div#menuContainer");
 
+welcomeDisplay();
+
+function welcomeDisplay() {
+    //Declares the var that the welcome message and image will be sent into
+    var welcomeBlurb;
+
+    welcomeBlurb = '<div id="welcomeMessage">';
+    welcomeBlurb += '<h2>Welcome to Tottie&apos;s</h2>';
+    welcomeBlurb += '<h3>Please select a menu above to get started!</h3>';
+    welcomeBlurb += '<img src="" alt="Tottie&apos;s" />';
+    welcomeBlurb += '</div>';
+
+    // Outputs the welcome message, this message goes away after a user selects a menu as this content is wiped
+    menuContainer.innerHTML = welcomeBlurb;
+}
+
 function appetizersMenu() {
     currentMenu = '<div id="appetizersMealsBox" class="menuContainer">';
     currentMenu += '<div id="menuTitleBox" class="centeredHorBox">';
@@ -64,8 +80,6 @@ function appetizersMenu() {
     currentMenu += '<dt id="name" class="menuItem">Spicy Cucumber</dt>';
     currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
-    currentMenu += '<dt id="name" class="menuItem">name</dt>';
-    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
     currentMenu += '</dl>';
     currentMenu += '</div>';
     currentMenu += '</div>';
@@ -76,7 +90,57 @@ function appetizersMenu() {
 }
 
 function soupsMenu() {
+    currentMenu = '<div id="soupsMealsBox" class="menuContainer">';
+    currentMenu += '<div id="menuTitleBox" class="centeredHorBox">';
+    currentMenu += '<h2 id="menuTitle">Soups</h2>';
+    currentMenu += '</div>';
+    currentMenu += '<div id="soupsMeals" class="subSectionBox">';
+    currentMenu += '<div id="menuItems" class="leftHorBox">';
+    currentMenu += '<dl id="menuItemList">';
+    currentMenu += '<dt id="name" class="menuItem">Sizzling Rice Soup</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
+    currentMenu += '<dt id="name" class="menuItem">Wonton Soup</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Egg Drop Soup</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Hot & Sour Soup &#128293;</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Chicken Corn Soup</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Spicy Seafood Noodle Soup &#128293;</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Mussels, fish, shrimp, scallops and vegetables with rice noodles.';
+    currentMenu += '</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Tom Yum &#128293;</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Classic Thai soup made with lemon grass and Thai herbs.</dd>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Chicken</dd>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Shrimp</dd>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Seafood (scallops, white fish, mussels & shrimp)</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Tom Kha Gai &#128293;</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Thai herbs in coconut milk broth.</dd>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Classic Thai soup made with lemon grass and Thai herbs.</dd>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Chicken</dd>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Shrimp</dd>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Seafood (scallops, white fish, mussels & shrimp)</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Pho</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Vietnamese rice noodle soup.</dd>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Tai (beef)</dd>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Ga (chicken)</dd>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Tai Bo Vien (beef with meatballs)</dd>';
+    currentMenu += '</dl>';
+    currentMenu += '</div>';
+    currentMenu += '</div>';
+    currentMenu += '</div>';
+
+    menuContainer.innerHTML = currentMenu;
+    return currentMenu;
 }
 
 function thaiMenu() {
@@ -105,8 +169,4 @@ function dessertsMenu() {
 
 function specialsMenu() {
 
-}
-
-function mouseSelectionEvent(){
-    
 }

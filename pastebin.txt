@@ -126,3 +126,55 @@ _________________________________
                 </div>
             </div>
         </div>
+
+
+
+
+_________________________________
+
+
+Soups
+
+Sizzling Rice Soup
+
+Wonton Soup
+
+Egg Drop Soup
+
+Hot & Sour Soup Δ
+
+Chicken Corn Soup
+
+Spicy Seafood Noodle Soup Δ
+
+Mussels, fish, shrimp, scallops and vegetables with rice noodles.
+
+Tom Yum Δ                                                  
+
+Classic Thai soup made with lemon grass and Thai herbs.
+
+Chicken
+
+Shrimp
+
+Seafood (scallops, white fish, mussels & shrimp)
+
+Tom Kha Gai Δ
+
+Thai herbs in coconut milk broth.
+
+Chicken
+
+Shrimp
+
+Seafood (scallops, white fish, mussels & shrimp)
+
+Pho
+
+Vietnamese rice noodle soup.
+
+Tai (beef)
+
+Ga (chicken)
+
+Tai Bo Vien (beef with meatballs)
