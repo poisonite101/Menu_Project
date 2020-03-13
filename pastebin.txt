@@ -141,15 +141,15 @@ Wonton Soup
 
 Egg Drop Soup
 
-Hot & Sour Soup Δ
+Hot & Sour Soup &#128293;
 
 Chicken Corn Soup
 
-Spicy Seafood Noodle Soup Δ
+Spicy Seafood Noodle Soup &#128293;
 
 Mussels, fish, shrimp, scallops and vegetables with rice noodles.
 
-Tom Yum Δ                                                  
+Tom Yum &#128293;                                                  
 
 Classic Thai soup made with lemon grass and Thai herbs.
 
@@ -159,7 +159,7 @@ Shrimp
 
 Seafood (scallops, white fish, mussels & shrimp)
 
-Tom Kha Gai Δ
+Tom Kha Gai &#128293;
 
 Thai herbs in coconut milk broth.
 
@@ -178,3 +178,222 @@ Tai (beef)
 Ga (chicken)
 
 Tai Bo Vien (beef with meatballs)
+
+
+_________________________________
+
+
+Thai and Vietnamese Entrees
+
+Larb &#128293;
+
+Spicy minced meat salad with fresh mint and Thai herbs.
+
+Tofu
+
+Chicken (Gai) or Beef (Nua)
+
+Shrimp or Mussels
+
+Cucumber Chicken Salad
+
+Chicken and cool cucumber seasoned with mint, ginger and lemon. Topped with crispy rice noodles.
+
+Bun Tom
+
+Charbroiled pork, shrimp and Tottie rolls with fresh lettuce, fresh mint, peanuts and rice vermicelli.
+
+Papaya Salad Platter &#128293;
+
+Green papaya salad with Thai grilled chicken and sticky rice.
+
+Pad Thai &#128293;
+
+Traditional Thai stir fried rice noodles.
+
+Chicken, Beef or Shrimp
+
+Panang &#128293;
+
+Spicy Thai curry with your choice of the following:
+
+Chicken, Beef, Shrimp or Fish
+
+Kang Keo Wan&#128293;
+
+Spicy Thai green curry with your choice of the following:
+
+Chicken, Beef, Shrimp, Fish or Mussels
+
+Pad Kra Pao &#128293;
+
+Stir fried w/Thai basil in chili sauce, onions, red bell peppers & bamboo shoots.
+
+Chicken, Beef Shrimp, Fish or Mussels
+
+Pad Khing &#128293;
+
+Choice of chicken, pork, beef or shrimp stir fried with fresh ginger, mushrooms and onion.
+
+Chicken, Beef, Pork or Shrimp
+
+Lemon Grass Stir-Fry &#128293;
+
+Stir fried with lemon grass, pea pods, red bell peppers, onions and mushrooms.
+
+Chicken, Beef or Shrimp
+
+Thai Stir-Fry &#128293;
+
+With mixed vegetables and Thai basil sauce.
+
+Chicken, Beef or Shrimp
+
+Crispy Chicken with Thai Basil
+
+Crispy Beef with Thai Basil
+
+Dragonfly Noodles
+
+Chicken or Beef
+
+Shoji Noodles
+
+Stir-fried rice noodles with broccoli, bean sprouts, onions and Thai basil.
+
+Chicken, Beef or Shrimp
+
+Chiang Mai Noodles &#128293;
+
+Thai curry chicken, Thai basil and bamboo shoots with rice noodles.
+
+Pad Se Ew &#128293;                                           
+
+Spicy chow fun noodles with broccoli and bok choy.
+
+Chicken, Beef or Shrimp
+
+Pad Kee Mao &#128293;
+
+Sautéed vegetables with chow fun noodles, basil, Thai spices.
+
+Chicken, Beef or Shrimp
+
+Pad Lard Na
+
+Chow fun noodles topped with onion, broccoli, bok choy, pea pods, stir-fried with brown sauce.
+
+Chicken, Beef or Shrimp
+
+Salmon with Basil-Ginger Sauce
+
+Grilled salmon with a Thai basil and ginger sauce. Served with steamed mixed vegetables.
+
+Red Curry Salmon &#128293;
+
+Grilled salmon with Thai red curry sauce. Served with steamed mixed vegetables.
+
+Thai Curry Salmon w/ Rice Noodles &#128293;
+
+Spicy Thai Seafood  &#128293;
+
+White fish, shrimp and mussels stir-fried with mushrooms, bamboo shoots, red bell peppers, onions and Thai basil.
+
+Thai Fish Filet &#128293;
+
+Braised white fish with Thai basil, mushrooms, onions, red bell peppers and bamboo shoots.
+
+Soft Shell Crab with Curry &#128293;
+
+Soft shell crab, Thai basil, bamboo shoots, mushrooms, onions and red bell peppers stir-fried with yellow curry.
+
+
+
+
+_________________________________
+
+
+
+Chinese
+
+Chicken with Vegetables
+
+Chicken Chop Suey
+
+Chicken with Broccoli
+
+Chicken with Pea Pods
+
+Curry Chicken &#128293;
+
+Chicken with Cashew Nuts
+
+Kung Pao Chicken &#128293;
+
+Chicken with Garlic Sauce &#128293;
+
+Chicken with Black Bean Sauce
+
+Sesame Chicken
+
+Tangerine Chicken
+
+Lemon Chicken
+
+General Tao’s Chicken &#128293;
+
+Moo Shu Chicken
+
+Sweet and Sour Chicken
+
+Chicken Egg Fu Yong
+
+Tangerine Beef
+
+Kung Pao Beef  &#128293;
+
+Beef with Broccoli
+
+Mongolian Beef
+
+Beef or Pork with Vegetables
+
+Beef with Green Peppers
+
+Beef with Oyster Sauce
+
+Beef or Pork Chop Suey
+
+Shredded Pork Szechwan Style &#128293;
+
+Sweet and Sour Pork
+
+Pork Egg Fu Yong
+
+Kung Pao Shrimp &#128293;
+
+Shrimp with Pea Pods
+
+Shrimp Chop Suey
+
+Shrimp with Garlic Sauce &#128293;
+
+Hot Braised Shrimp &#128293;
+
+Tangerine Shrimp
+
+Shrimp with Lobster Sauce
+
+Moo Shu Shrimp
+
+Shrimp with Black Bean Sauce
+
+Scallops with Black Bean Sauce
+
+Mussels with Black Bean Sauce
+
+Sweet and Sour Shrimp
+
+Shrimp Egg Fu Yong
+
+Ginger Fish
