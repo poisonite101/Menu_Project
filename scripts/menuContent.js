@@ -14,7 +14,7 @@ function welcomeDisplay() {
     welcomeBlurb = '<div id="welcomeMessage">';
     welcomeBlurb += '<h2>Welcome to Tottie&apos;s</h2>';
     welcomeBlurb += '<h3>Please select a menu above to get started!</h3>';
-    welcomeBlurb += '<img src="" alt="Tottie&apos;s" />';
+    welcomeBlurb += '<a id="logo" onclick="welcomeDisplay()"><img src="" alt="Tottie&apos;s" /></a>';
     welcomeBlurb += '</div>';
 
     // Outputs the welcome message, this message goes away after a user selects a menu as this content is wiped
@@ -23,6 +23,7 @@ function welcomeDisplay() {
 
 function appetizersMenu() {
     menuName = "Appetizers";
+
     currentMenu = '<div id="appetizersMealsBox" class="menuContainer">';
     currentMenu += '<div id="menuTitleBox" class="centeredHorBox">';
     currentMenu += '<h2 id="menuTitle">Appetizers</h2>';
@@ -93,6 +94,7 @@ function appetizersMenu() {
 
 function soupsMenu() {
     menuName = "Soups";
+
     currentMenu = '<div id="soupsMealsBox" class="menuContainer">';
     currentMenu += '<div id="menuTitleBox" class="centeredHorBox">';
     currentMenu += '<h2 id="menuTitle">Soups</h2>';
@@ -147,6 +149,7 @@ function soupsMenu() {
 
 function thaiMenu() {
     menuName = "Thai";
+
     currentMenu = '<div id="thaiMealsBox" class="menuContainer">';
     currentMenu += '<div id="menuTitleBox" class="centeredHorBox">';
     currentMenu += '<h2 id="menuTitle">Thai and Vietnamese Entrees</h2>';
@@ -281,6 +284,7 @@ function thaiMenu() {
 
 function entreesMenu() {
     menuName = "Chinese Entrees";
+
     currentMenu = '<div id="chineseMealsBox" class="menuContainer">';
     currentMenu += '<div id="menuTitleBox" class="centeredHorBox">';
     currentMenu += '<h2 id="menuTitle">Chinese Entrees</h2>';
@@ -289,86 +293,127 @@ function entreesMenu() {
     currentMenu += '<div id="menuItems" class="leftHorBox">';
     currentMenu += '<dl id="menuItemList">';
     currentMenu += '<dt id="name" class="menuItem">Chicken with Vegetables</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Chicken Chop Suey</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Chicken with Broccoli</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Chicken with Pea Pods</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Curry Chicken &#128293;</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Chicken with Cashew Nuts</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Kung Pao Chicken &#128293;</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Chicken with Garlic Sauce &#128293;</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Chicken with Black Bean Sauce</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Sesame Chicken</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Tangerine Chicken</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Lemon Chicken</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
-    currentMenu += '<dt id="name" class="menuItem">General Tao’s Chicken &#128293;</dt>';
+    currentMenu += '<dt id="name" class="menuItem">General Tao&apos;s Chicken &#128293;</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Moo Shu Chicken</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Sweet and Sour Chicken</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Chicken Egg Fu Yong</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Tangerine Beef</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Kung Pao Beef &#128293;</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Beef with Broccoli</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Mongolian Beef</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Beef or Pork with Vegetables</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Beef with Green Peppers</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Beef with Oyster Sauce</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Beef or Pork Chop Suey</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Shredded Pork Szechwan Style &#128293;</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Sweet and Sour Pork</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Pork Egg Fu Yong</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Kung Pao Shrimp &#128293;</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Shrimp with Pea Pods</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Shrimp Chop Suey</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Shrimp with Garlic Sauce &#128293;</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Hot Braised Shrimp &#128293;</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Tangerine Shrimp</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Shrimp with Lobster Sauce</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Moo Shu Shrimp</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Shrimp with Black Bean Sauce</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Scallops with Black Bean Sauce</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Mussels with Black Bean Sauce</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Sweet and Sour Shrimp</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Shrimp Egg Fu Yong</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
 
     currentMenu += '<dt id="name" class="menuItem">Ginger Fish</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
     currentMenu += '</dl>';
     currentMenu += '</div>';
     currentMenu += '</div>';
@@ -380,6 +425,47 @@ function entreesMenu() {
 function noodlesMenu() {
     menuName = "Chinese Noodles";
 
+    currentMenu = '<div id="noodlesMealsBox" class="menuContainer">';
+    currentMenu += '<div id="menuTitleBox" class="centeredHorBox">';
+    currentMenu += '<h2 id="menuTitle">Chinese Noodles</h2>';
+    currentMenu += '</div>';
+    currentMenu += '<div id="noodlesMeals" class="subSectionBox">';
+    currentMenu += '<div id="menuItems" class="leftHorBox">';
+    currentMenu += '<dl id="menuItemList">';
+    currentMenu += '<dt id="name" class="menuItem">Chow Mein</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">With your choice of:</dd>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Chicken</dd>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Beef</dd>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Pork</dd>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Shrimp</dd>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Vegetable</dd>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">House Special (Chicken, Beef and Shrimp)</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Chow Fun</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">With your choice of:</dd>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Chicken</dd>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Beef</dd>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Shrimp</dd>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">House Special (Chicken, Beef and Shrimp)</dd>';
+    currentMenu += '<dt id="name" class="menuItem">Tottie&apos;s Pan Fried Noodles</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Egg noodles pan fried until crispy; smothered with shrimp,';
+    currentMenu += '    chicken, beef, broccoli, mushrooms, snow peas and brown sauce.</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Seafood Pan Fried Noodles</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Egg noodles pan fried until crispy; with scallops, white fish,';
+    currentMenu += '    shrimp and mixed vegetables.</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Pork Pan Fried Noodles</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Egg noodles pan fried until crispy; with pork, shiitake mushrooms';
+    currentMenu += '    and napa cabbage.</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Singapore Rice Noodles</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Thin rice noodles with pork and shrimp stir-fried with a light';
+    currentMenu += '    curry sauce.</dd>';
+    currentMenu += '</dl>';
+    currentMenu += '</div>';
+    currentMenu += '</div>';
+    currentMenu += '</div>';
 
     return HTMLInjection(currentMenu, menuName);
 }
@@ -387,6 +473,43 @@ function noodlesMenu() {
 function veggiesMenu() {
     menuName = "Chinese Veggies";
 
+    currentMenu = '<div id="veggiesMealsBox" class="menuContainer">';
+    currentMenu += '<div id="menuTitleBox" class="centeredHorBox">';
+    currentMenu += '<h2 id="menuTitle">Chinese Veggies</h2>';
+    currentMenu += '</div>';
+    currentMenu += '<div id="veggiesMeals" class="subSectionBox">';
+    currentMenu += '<div id="menuItems" class="leftHorBox">';
+    currentMenu += '<dl id="menuItemList">';
+    currentMenu += '<dt id="name" class="menuItem">Mixed Steamed Vegetables</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Vegetable Chop Suey</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">String Beans with Brown Sauce</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Hot and Spicy Eggplant &#128293;</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Home Style Bean Curd</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Szechwan Style Bean Curd &#128293;</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Vegetable Moo Shu</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Vegetable Egg Fu Yong</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Sautéed Baby Bok Choy</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+    currentMenu += '</dl>';
+    currentMenu += '</div>';
+    currentMenu += '</div>';
+    currentMenu += '</div>';
 
     return HTMLInjection(currentMenu, menuName);
 }
@@ -394,6 +517,44 @@ function veggiesMenu() {
 function riceMenu() {
     menuName = "Rice";
 
+    currentMenu = '<div id="riceMealsBox" class="menuContainer">';
+    currentMenu += '<div id="menuTitleBox" class="centeredHorBox">';
+    currentMenu += '<h2 id="menuTitle">Rice</h2>';
+    currentMenu += '</div>';
+    currentMenu += '<div id="riceMeals" class="subSectionBox">';
+    currentMenu += '<div id="menuItems" class="leftHorBox">';
+    currentMenu += '<dl id="menuItemList">';
+    currentMenu += '<dt id="name" class="menuItem">Tottie&apos;s Fried Rice</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Combination of shrimp, chicken and beef</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Shrimp Fried Rice</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Beef Fried Rice</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Chicken or Pork Fried Rice</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Vegetable Fried Rice</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Egg Fried Rice</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Thai Fried Rice</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Seasoned with Thai basil.</dd>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Chicken</dd>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Pork</dd>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Beef</dd>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Or shrimp</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Steamed Brown Rice</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+    currentMenu += '</dl>';
+    currentMenu += '</div>';
+    currentMenu += '</div>';
+    currentMenu += '</div>';
 
     return HTMLInjection(currentMenu, menuName);
 }
@@ -401,6 +562,28 @@ function riceMenu() {
 function dessertsMenu() {
     menuName = "Desserts";
 
+    currentMenu = '<div id="dessertsMealsBox" class="menuContainer">';
+    currentMenu += '<div id="menuTitleBox" class="centeredHorBox">';
+    currentMenu += '<h2 id="menuTitle">House-Crafted Desserts</h2>';
+    currentMenu += '</div>';
+    currentMenu += '<div id="dessertsMeals" class="subSectionBox">';
+    currentMenu += '<div id="menuItems" class="leftHorBox">';
+    currentMenu += '<dl id="menuItemList">';
+    currentMenu += '<dt id="name" class="menuItem">Fried Honey Banana (4)</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Served with homemade coconut ice cream.</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Homemade Ice Cream</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Ask your server for available flavors.</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Homemade Ice Cream Sampler</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Can&apos;t decide on a flavor&#63; Try the sampler&#33;</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Mango with Sticky Rice</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">Sticky rice topped with sliced mango and sweetened coconut milk</dd>';
+    currentMenu += '</dl>';
+    currentMenu += '</div>';
+    currentMenu += '</div>';
+    currentMenu += '</div>';
 
     return HTMLInjection(currentMenu, menuName);
 }
@@ -408,6 +591,78 @@ function dessertsMenu() {
 function specialsMenu() {
     menuName = "Lunch Specials";
 
+    currentMenu = '<div id="specialsMealsBox" class="menuContainer">';
+    currentMenu += '<div id="menuTitleBox" class="centeredHorBox">';
+    currentMenu += '<h2 id="menuTitle">Weekday Lunch Specials</h2>';
+    currentMenu += '</div>';
+    currentMenu += '<div id="specialsMeals" class="subSectionBox">';
+    currentMenu += '<div id="menuItems" class="leftHorBox">';
+    currentMenu += '<span id="specialsInfoBox">';
+    currentMenu += '<p class="specialsBlurb">Available Tuesday though Friday 11 AM to 3 PM</p>';
+    currentMenu += '<p class="specialsBlurb">Served with an Egg Roll and your choice of Steamed or Fried Rice</p>';
+    currentMenu += '<p class="specialsBlurb">Dine-In Lunch Specials Include Egg Drop or Hot & Sour Soup</p>';
+    currentMenu += '</span>';
+    currentMenu += '<dl id="menuItemList">';
+    currentMenu += '<dt id="name" class="menuItem">Pad Thai Chicken &#128293;</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Panang or Kang Keo Wan Chicken &#128293;</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Pad Kra Pao Chicken &#128293;</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Kung Pao Chicken &#128293;</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Chicken Chop Suey</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Chicken, Beef or Pork with Vegetables</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Chicken with Cashews</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Chicken with Black Bean Sauce</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Sliced Chicken with Garlic Sauce &#128293;</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Pad Thai Beef &#128293;</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Panang or Kang Keo Wan Beef &#128293;</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Pad Kra Pao Beef &#128293;</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Kung Pao Beef &#128293;</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Beef with Broccoli</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Beef Chop Suey</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Vegetable Chow Mein</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Chicken Chow Mein</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Beef Chow Mein</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+
+    currentMenu += '<dt id="name" class="menuItem">Shrimp Chow Mein</dt>';
+    currentMenu += '<dd id="desc" class="menuItemDesc">description</dd>';
+    currentMenu += '</dl>';
+    currentMenu += '</div>';
+    currentMenu += '</div>';
+    currentMenu += '</div>';
 
     return HTMLInjection(currentMenu, menuName);
 }

@@ -340,7 +340,7 @@ Tangerine Chicken
 
 Lemon Chicken
 
-General Tao’s Chicken &#128293;
+General Tao&apos;s Chicken &#128293;
 
 Moo Shu Chicken
 
@@ -397,3 +397,184 @@ Sweet and Sour Shrimp
 Shrimp Egg Fu Yong
 
 Ginger Fish
+
+
+
+
+
+
+++ Noodles
+
++ Chow Mein
+Chicken
+Beef
+Pork
+Shrimp
+Vegetable
+House Special (Chicken, Beef and Shrimp)
+
++ Chow Fun
+Chicken
+Beef
+Shrimp
+House Special (Chicken, Beef and Shrimp)
+
++ Tottie&apos;s Pan Fried Noodles
+Egg noodles pan fried until crispy; smothered with shrimp, chicken, beef, broccoli, mushrooms, snow peas and brown sauce.
+
++ Seafood Pan Fried Noodles
+Egg noodles pan fried until crispy; with scallops, white fish, shrimp and mixed vegetables.
+
++ Pork Pan Fried Noodles
+Egg noodles pan fried until crispy; with pork, shiitake mushrooms and napa cabbage.
+
++ Singapore Rice Noodles
+Thin rice noodles with pork and shrimp stir-fried with a light curry sauce.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Vegetables
+
+Mixed Steamed Vegetables
+
+Vegetable Chop Suey
+
+String Beans with Brown Sauce
+
+Hot and Spicy Eggplant &#128293;
+
+Home Style Bean Curd
+
+Szechwan Style Bean Curd &#128293;
+
+Vegetable Moo Shu
+
+Vegetable Egg Fu Yong
+
+Sautéed Baby Bok Choy
+
+
+
+
+
+
+
+
+++ Rice
+
++ Tottie&apos;s Fried Rice
+
+Combination of shrimp, chicken and beef
+
++ Shrimp Fried Rice
+
++ Beef Fried Rice
+
++ Chicken or Pork Fried Rice
+
++ Vegetable Fried Rice
+
++ Egg Fried Rice
+
++ Thai Fried Rice                                             
+Seasoned with Thai basil.
+Chicken
+Pork
+Beef
+Shrimp
+
++ Steamed Brown Rice
+
+
+
+
+
+++ House-Crafted Desserts
+
++ Fried Honey Banana (4)
+Served with homemade coconut ice cream.
+
++ Homemade Ice Cream
+Ask your server for available flavors.
+
++ Homemade Ice Cream Sampler 
+Can&apos;t decide on a flavor? Try the sampler!
+
++ Mango with Sticky Rice
+Sticky rice topped with sliced mango and sweetened coconut milk
+
+
+
+
+
+
+
+
+++ Weekday Lunch Specials
+
+-- Available Tuesday though Friday 11 AM to 3 PM
+
+-- Served with an Egg Roll and your choice of Steamed or Fried Rice
+
+-- Dine-In Lunch Specials Include Egg Drop or Hot & Sour Soup
+
+ 
+
++ Pad Thai Chicken &#128293;
+
++ Panang or Kang Keo Wan Chicken &#128293;
+
++ Pad Kra Pao Chicken &#128293;
+
++ Kung Pao Chicken &#128293;
+
++ Chicken Chop Suey
+
++ Chicken, Beef or Pork with Vegetables
+
++ Chicken with Cashews
+
++ Chicken with Black Bean Sauce
+
++ Sliced Chicken with Garlic Sauce &#128293;
+
+ 
+
++ Pad Thai Beef &#128293;
+
++ Panang or Kang Keo Wan Beef &#128293;
+
++ Pad Kra Pao Beef &#128293;
+
++ Kung Pao Beef &#128293;
+
++ Beef with Broccoli
+
++ Beef Chop Suey
+
+ 
+
++ Vegetable Chow Mein
+
++ Chicken Chow Mein
+
++ Beef Chow Mein
+
++ Shrimp Chow Mein
